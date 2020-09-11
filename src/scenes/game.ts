@@ -8,7 +8,6 @@ export class Game extends Phaser.Scene {
   private camera: Phaser.Cameras.Scene2D.Camera
 
   public init(){
-    console.log("Hello Games");
     this.player = new Player​​(this, { tx: 10, ty: 10 })
   }
 
