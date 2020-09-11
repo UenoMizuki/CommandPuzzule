@@ -6,7 +6,7 @@
 ## クローンしてからの流れ
 npm i
 npm install -g webpack-cli(なぜかグローバルじゃないとダメみたい)
-webpack (bundle)
+npx webpack-dev-server (変更を検知して自動bundle)
 
 ## 操作方法
 左右・・・移動
